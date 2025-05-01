@@ -1,0 +1,1 @@
+alert('Olá, seja bem-vindo(a), ao meu site/Portifólio Online. Ainda está em Desenvolvimento!');
