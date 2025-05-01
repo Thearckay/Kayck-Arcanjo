@@ -1,5 +1,3 @@
-// alert('Olá, seja bem-vindo(a), ao meu site/Portifólio Online. Ainda está em Desenvolvimento!');
-
 const anohtml = document.querySelector('.ano')
 let data = new Date()
 
