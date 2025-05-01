@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Definições Globais */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-principal: black;
+    --cor-secundaria: white;
+}
+
+.link-list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo-name {
+    font-size: 2em;
+}
+
+.paragraph {
+    font-size: 0.7em;
+}
+
+/* Fim - Globais */
+
+/* Inicio - Header */
+
+header {
+    width: 100%;
+    height: 3em;
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em 0 1em;
+    position: fixed;
+    z-index: 2;
+    background-color: var(--cor-secundaria);
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+
+.link-menu {
+    color: var(--cor-principal);
+}
+
+.div-menu-btt {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    gap: 1em;
+}
+
+.button-menu {
+    background-color: transparent;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 50em;
+    border: 1px black solid;
+}
+
+/* Final - Header */
+
+/* Inicio - Section - Intro */
+
+#intro {
+    height: auto;
+    width: 100%;
+    background-image: url(../img/page01-bg.jpg);
+    background-size: cover;
+    padding: 2em 0 2em 0;
+}
+
+.main-container-intro {
+    height: auto;
+    padding: 4em 0 0 0;
+    width: 100%;
+    display: flex;
+    gap: 10dvw;
+    align-items: center;
+}
+
+.tittles{
+    font-family: poppins;
+    font-size: 1.4em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 0 0 0 4em;
+}
+
+.pic-me {
+    border-radius: 500em;
+    height: 30dvw;
+    position: relative;
+    right: 80px;
+}
+
+.main-button {
+    font-size: 0.7em;
+    padding: 0.89em 2em;
+    background-color: var(--cor-secundaria);
+    border: 1px black solid;
+    border-radius: 500em;
+    margin: 1em 0 0 0;
+    color: var(--cor-principal);
+}
+
+/* Final - Section - Intro */
+
+@media screen and (max-width: 800px) {
+    /* Inicio - GERAIS */
+    .paragraph {
+        font-size: 0.8em;
+    }
+
+    .logo-name {
+        font-size: 1em;
+    }
+    /* Final - GERAIS */
+
+    /* HEADER / Menu */
+    .menu {
+        display: none;
+    }
+
+    .button-menu {
+        font-size: 0.6em;
+    }
+
+    .main-container-intro{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .tittles {
+        margin: 0 1em 0 1em;
+        font-size: 1em;
+        display: flex;
+        align-items: center;
+    }
+
+    .main-container-intro {
+        gap: 1em;
+        padding: 2em 0 0 0;
+    }
+    .pic-me {
+        right: 0;
+    }
+}

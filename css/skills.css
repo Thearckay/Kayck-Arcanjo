@@ -1,0 +1,180 @@
+/* Globais */
+
+:root {
+    --cor-principal: black;
+    --cor-secundaria: white;
+    --cor-degradê: linear-gradient(to right, blue, orange);
+}
+
+
+/* Fim - Globais */
+/* Sessão - Skills */
+#skills {
+    height: auto;
+    width: 100%;
+    background-color: #3d3d3d;
+    font-family: poppins;
+}
+
+.tittle-skills {
+    width: 100%;
+    padding: 1em 0 0 1em;
+    font-size: 2.5em;
+    color: var(--cor-secundaria);
+}
+
+.skills-main-container {
+    display: flex;
+}
+
+/* Desenvolvimento de competencias */
+
+
+.skills-main-container-intro{
+    width: 100%;
+    display: flex;
+}
+.skills-main-information-left {
+    width: 50%;
+    font-size: 1em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: var(--cor-secundaria);
+}
+
+.skills-sub-tittle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    color: var(--cor-secundaria);
+}
+
+/* Grafico de Skills - main-information-right */
+
+.skills-main-information-right {
+    width: 50%;
+    border: white 1px solid;
+    margin: 1em;
+    border-radius: 2em;
+    padding: 1em;
+    color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: space-evenly;
+}
+
+
+/* Barra de progresso */
+
+.skills-progress-bar {
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: var(--cor-secundaria);
+}
+
+/* Progressos */
+
+.skills-numeral-porcentage-html{
+    font-size: 0.9em;
+    width: 30px;
+    left: 78.5%;
+    position: relative;
+}
+.progress-html {
+    height: 100%;
+    width: 80%;
+    background-image: var(--cor-degradê);
+    border-radius: inherit;
+}
+
+.skills-numeral-porcentage-css{
+    font-size: 0.9em;
+    width: 30px;
+    left: 73%;
+    position: relative;
+}
+.progress-css {
+    height: 100%;
+    width: 74%;
+    background-image: var(--cor-degradê);
+    border-radius: inherit;
+}
+
+.skills-numeral-porcentage-js{
+    font-size: 0.9em;
+    width: 30px;
+    left: 24%;
+    position: relative;
+}
+.progress-js {
+    height: 100%;
+    width: 25%;
+    background-image: var(--cor-degradê);
+    border-radius: inherit;
+}
+
+.skills-numeral-porcentage-sql{
+    font-size: 0.9em;
+    width: 30px;
+    left: 74%;
+    position: relative;
+}
+.progress-sql {
+    height: 100%;
+    width: 76%;
+    background-image: var(--cor-degradê);
+    border-radius: inherit;
+}
+
+
+.skills-numeral-porcentage-bm{
+    font-size: 0.9em;
+    width: 30px;
+    left: 58%;
+    position: relative;
+}
+.progress-bm {
+    height: 100%;
+    width: 60%;
+    background-image: var(--cor-degradê);
+    border-radius: inherit;
+}
+
+.skills-numeral-porcentage-pms{
+    font-size: 0.9em;
+    width: 30px;
+    left: 68%;
+    position: relative;
+}
+.progress-pms {
+    height: 100%;
+    width: 70%;
+    background-image: var(--cor-degradê);
+    border-radius: inherit;
+}
+
+/* Final - Grafico de Skills */
+
+@media screen and (max-width: 800px) {
+    .skills-main-container {
+        flex-wrap: wrap;
+    }
+    .tittle-skills {
+        padding: 1em 0 0 0 ;
+        display: flex;
+        justify-content: center;
+    }
+    /* CONTEINER DO LADO ESQUERDO */
+    .skills-main-information-left {
+        width: 100%;
+    }
+    /* CONTEINER DO LADO DIREITO */
+    .skills-main-information-right  {
+        width: 100%;
+    }
+}
