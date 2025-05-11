@@ -54,6 +54,14 @@
 
 /* Grafico de Skills - main-information-right */
 
+.skills-information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 .skills-main-information-right {
     width: 50%;
     border: white 1px solid;
@@ -66,7 +74,40 @@
     gap: 0.5em;
     justify-content: space-evenly;
 }
+/* POP UP */
 
+.div-popup {
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+}
+.poup {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+    width: 60%;
+    height: 60%;
+    padding: 2em;
+    border-radius: 2em;
+    display: none;
+}
+
+#infoIcon {
+    position: relative;
+    z-index: 10;
+}
+#closePopUp {
+    position: relative;
+    z-index: 10;
+}
+
+.div-close-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /* Barra de progresso */
 
@@ -141,6 +182,19 @@
 .progress-bm {
     height: 100%;
     width: 60%;
+    background-image: var(--cor-degradê);
+    border-radius: inherit;
+}
+
+.skills-numeral-porcentage-en {
+    font-size: 0.9em;
+    width: 30px;
+    left: 46%;
+    position: relative;
+}
+.progress-en {
+    height: 100%;
+    width: 48%;
     background-image: var(--cor-degradê);
     border-radius: inherit;
 }

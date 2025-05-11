@@ -39,7 +39,7 @@ header {
     justify-content: space-between;
     padding: 0 1em 0 1em;
     position: fixed;
-    z-index: 2;
+    z-index: 11;
     background-color: var(--cor-secundaria);
 }
 

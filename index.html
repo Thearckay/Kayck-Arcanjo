@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/skills.css">
     <link rel="stylesheet" href="./css/curriculum.css">
@@ -17,24 +18,24 @@
         <div class="div-menu-btt">
             <ul class="menu">
                 <li class="link-list"><a href="#skills" class="link-list link-menu">Skills</a></li>
-                <li class="link-list"><a href="" class="link-list link-menu">Curriculo</a></li>
-                <li class="link-list"><a href="" class="link-list link-menu">Projetos</a></li>
-                <li class="link-list"><a href="" class="link-list link-menu">Sobre mim</a></li>
+                <li class="link-list"><a href="#curriculum" class="link-list link-menu" id="headerCurriculumButton">Curriculo</a></li>
+                <li class="link-list"><a href="" class="link-list link-menu" id="headerProjectsButton">Projetos</a></li>
+                <li class="link-list"><a href="" class="link-list link-menu" id="headerAboutMeButton">Sobre mim</a></li>
             </ul>
-            <a href="https://wa.me/5573999199697" class="link-list link-menu button-menu">Contate-me</a>
+            <a href="https://wa.me/5573999199697" class="link-list link-menu button-menu" target="_blank">Contate-me</a>
         </div>
     </header>
     <section id="intro">
         <div class="main-container-intro">
             <div class="tittles">
                 <div>
-                    <h1>Analista e Desenvolvedor de Software</h1>
-                    <h2>Designer & Social Mídia</h2>
+                    <h1>Analise e Desenvolvedor de Software</h1>
+                    <h2>Full Stack - Student</h2>
                 </div>
                 <p class="paragraph">Olá, meu nome é Kayck Arcanjo, tenho <span class="idade">20</span> anos. Sou estudante de Analise e
                     Desenvolvimento de Sistemas. Seja bem vindo(a), ao meu portifólio online</p>
                 <div>
-                    <a href="https://wa.me/5573999199697" class="main-button link-list">Contate-me</a>
+                    <a href="https://wa.me/5573999199697" class="main-button link-list" target="_blank">Contate-me</a>
                 </div>
             </div>
             <img src="img/pic-me.png" alt="" class="pic-me">
@@ -54,9 +55,30 @@
 
                 <p>Hoje, busco consolidar minha carreira como desenvolvedor, somando minhas habilidades técnicas com toda a bagagem humana e profissional que construí até aqui</p>
             </div>
+          
             <div class="skills-main-information-right">
+                <div class="div-popup">
+                    <div class="poup" id="popup">
+                        <div class="div-close-button">
+                            <h2>Informativo</h2> 
+                            <i class="bi bi-x-lg" id="closePopUp"></i>
+                        </div>
+                        <p>A porcentagem dessas competências são em relação a umas as outras. </p>
+                        <br> 
+                        <h2>Exemplo</h2>
+                        <p>Tenho mais conhecimentos de HTML e CSS em comparação com JavaScript. Ou: Tenho mais conhecimentos do PMS, que no Meta Business Suite.</p>
+                    </div>
+                
+                </div>
+                
                 <div>
-                    <h3>HTML5</h3>
+                    <div class="skills-information">
+                        <h3>HTML5</h3> 
+                       
+                        <i class="bi bi-info-circle" id="infoIcon"></i> 
+                       
+                        <!-- FALTA COLOCAR INTERAÇÃO COM O ICODE DE INFORMAÇÃO -->
+                    </div>
                     <p class="skills-numeral-porcentage-html">80%</p>
                     <div class="skills-progress-bar">
                         <div class="progress-html"></div>
@@ -91,6 +113,13 @@
                     </div>
                 </div>
                 <div>
+                    <h3>Nível de Inglês - B1 Level</h3>
+                    <p class="skills-numeral-porcentage-en">48%</p>
+                    <div class="skills-progress-bar">
+                        <div class="progress-en"></div>
+                    </div>
+                </div>
+                <div>
                     <h3>Sistema de Gestão de Propriedade - PMS (Magic)</h3>
                     <p class="skills-numeral-porcentage-pms">70%</p>
                     <div class="skills-progress-bar">
@@ -100,10 +129,24 @@
             </div>
         </div>
     </section>
+    <section id="curriculum">
+
+        <div class="slider-conteiner">
+            <i class="bi bi-chevron-compact-left"></i> 
+            <div class="slide">
+                <img src="img/Monitor de Turismo - Kayck - Projeto por do sol.webp" alt="" class="curriculum-imgs ">
+            </div>
+            <i class="bi bi-chevron-compact-right"></i>
+        </div>
+
+
+    </section>
     <footer>
         <p>Kayck Arcanjo - <span class="ano">2025</span> &copy;</p>
     </footer>
     <script src="JavaScript/app.js"></script>
+    <script src="JavaScript/slides.js"></script>
+
 </body>
 
 </html>

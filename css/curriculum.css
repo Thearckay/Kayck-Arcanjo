@@ -1,0 +1,60 @@
+#curriculum {
+    width: 100%;
+    height: 70dvh;
+    background-image: url(../img/page01-bg.jpg);
+    background-size: cover;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GERAIS */
+
+:root {
+    --cor-principal: black;
+    --cor-secundaria: white;
+    --cor-degradê: linear-gradient(to right, blue, orange);
+}
+
+.slide-off {
+    display: none;
+}
+
+
+.bi:hover {
+    cursor: pointer;
+}
+
+
+/* SLIDES */
+
+.curriculum-imgs {
+    height: 420px;
+    width: 600px;
+}
+
+.slider-conteiner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4em;
+}
+
+.slide {
+    width: auto;
+}
+
+@media screen and (max-width:800px){
+    .curriculum-imgs {
+        height: 100%;
+    }
+    .slide { 
+        height: 90%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
