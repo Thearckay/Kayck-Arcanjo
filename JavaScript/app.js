@@ -23,7 +23,7 @@ let headerAboutMeButton = document.getElementById('headerAboutMeButton');
 headerAboutMeButton.addEventListener('click', emDesenvolvimento)
 
 function emDesenvolvimento() {
-    alert('Olá, essa função ainda está em desenvolvimento! Logo estará disponivel, aguarde.')
+    alert('Olá, essa função ainda está em desenvolvimento! Logo estará disponível, aguarde.')
 }
 
 
