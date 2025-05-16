@@ -1,11 +1,14 @@
-#curriculum {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.curriculum {
     width: 100%;
-    height: 70dvh;
+    height: auto;
     background-image: url(../img/page01-bg.jpg);
-    background-size: cover;
-    display: none;
+    background-size: 220%;
+    background-position: center;
     justify-content: center;
     align-items: center;
+    font-family: poppins;
 }
 
 /* GERAIS */
@@ -15,46 +18,71 @@
     --cor-secundaria: white;
     --cor-degradê: linear-gradient(to right, blue, orange);
 }
+.curriculum-tittle {
+    height: 2em;
+    margin: 0 0 0.4em 0;
+}
 
-.slide-off {
+.curriculum-main-tittle {
+    font-size: 1.3em;
+}
+
+.curriculum-imgs {
+    height: 50dvh;
+    margin: 0 0 0 2%;
+}
+
+.curriculum-img-hide{
     display: none;
 }
 
-
-.bi:hover {
-    cursor: pointer;
+.break-row {
+    display: none;
 }
 
+/* Final dos GERAIS */
 
-/* SLIDES */
-
-.curriculum-imgs {
-    height: 420px;
-    width: 600px;
+.curriculum-work-container {
+    margin: 0 0 0 7%;
 }
 
-.slider-conteiner {
-    width: 100%;
-    height: 100%;
+.curriculum-text-container {
+    margin: 1% 0 0 2%;
+    padding: 0 0 1em 0;
+    width: 60%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.4em;
+    flex-direction: column;
+    gap: 1em;
 }
 
-.slide {
-    width: auto;
-}
 
-@media screen and (max-width:800px){
-    .curriculum-imgs {
-        height: 100%;
+@media screen and (max-width: 800px){
+    .curriculum {
+        background-image: none;
     }
-    .slide { 
-        height: 90%;
-        width: 80%;
+    .curriculum-work-container {
+        margin: 0 1em 0 1em;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+
+    }
+    .curriculum-imgs {
+        height: 25dvh;
+        margin: 0;
+    }
+
+    .curriculum-text-container {
+        width: 90%;
+
+    }
+    .curriculum-tittle {
+        height: 1%;
+    }
+    .break-row {
+        display: block;
+    }
+    #monitor-img {
+        height: 20em;
+        width: 20em;
     }
 }

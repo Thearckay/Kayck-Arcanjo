@@ -45,6 +45,10 @@ header {
     box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.056);
 }
 
+#bi-header-list-button {
+    display: none;
+}
+
 .menu {
     display: flex;
     list-style: none;
@@ -120,6 +124,16 @@ header {
 
 /* Final - Section - Intro */
 
+/* Menu de opções */
+
+/* .opitons {
+    height: 100dvh;
+    width: 100%;
+    background-color: var(--cor-secundaria);
+    position: fixed;
+    z-index: 11;
+} */
+
 @media screen and (max-width: 800px) {
     /* Inicio - GERAIS */
     .paragraph {
@@ -134,6 +148,13 @@ header {
     /* HEADER / Menu */
     .menu {
         display: none;
+    }
+
+    #bi-header-list-button {
+        display: block;
+    }
+    #bi-header-list-button:hover{
+       cursor: pointer;
     }
 
     .button-menu {

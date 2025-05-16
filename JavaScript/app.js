@@ -13,9 +13,6 @@ idadehtml.textContent = anoAtual-birthDate
 
 // AVISOS DO HEADER
 
-let headerCurriculumButton = document.getElementById('headerCurriculumButton'); //Botão curriculo do menu
-headerCurriculumButton.addEventListener('click', emDesenvolvimento)
-
 let headerProjectsButton = document.getElementById('headerProjectsButton'); // Botão projetos
 headerProjectsButton.addEventListener('click', emDesenvolvimento)
 
@@ -25,6 +22,27 @@ headerAboutMeButton.addEventListener('click', emDesenvolvimento)
 function emDesenvolvimento() {
     alert('Olá, essa função ainda está em desenvolvimento! Logo estará disponível, aguarde.')
 }
+
+// Botão menu para Mobile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
