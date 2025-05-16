@@ -103,7 +103,7 @@
     z-index: 10;
 }
 
-.div-close-button {
+.div-close-button-popup {
     display: flex;
     align-items: center;
     justify-content: space-between;

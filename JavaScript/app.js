@@ -44,8 +44,6 @@ function emDesenvolvimento() {
 
 
 
-
-
 // ========================================================
 
 //Interação no icone de informação da sesão skills
