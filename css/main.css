@@ -126,13 +126,19 @@ header {
 
 /* Menu de opções */
 
-/* .opitons {
+.opitons {
     height: 100dvh;
     width: 100%;
     background-color: var(--cor-secundaria);
     position: fixed;
     z-index: 11;
-} */
+    padding: 1em;
+}
+
+.div-close-button {
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 @media screen and (max-width: 800px) {
     /* Inicio - GERAIS */
