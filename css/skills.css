@@ -149,12 +149,12 @@
 .skills-numeral-porcentage-js{
     font-size: 0.9em;
     width: 30px;
-    left: 24%;
+    left: 33%;
     position: relative;
 }
 .progress-js {
     height: 100%;
-    width: 25%;
+    width: 35%;
     background-image: var(--cor-degradê);
     border-radius: inherit;
 }
