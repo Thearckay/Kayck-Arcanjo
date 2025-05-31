@@ -3,7 +3,7 @@
 .curriculum {
     width: 100%;
     height: auto;
-    background-image: url(../img/page01-bg.jpg);
+    /* background-image: url(../img/page01-bg.jpg); */
     background-size: 220%;
     background-position: center;
     justify-content: center;
