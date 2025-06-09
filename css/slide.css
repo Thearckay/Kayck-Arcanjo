@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 800px) {
     #slideSection{
-        min-height: 120dvh;
+        min-height: 1px; /*Se eu mudar isso, o site quebra, ainda não entendi*/
         padding: 0;
         margin: 0;
     }
