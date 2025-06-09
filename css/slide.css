@@ -73,6 +73,11 @@
 }
 
 @media screen and (max-width: 800px) {
+    #slideSection{
+        min-height: 150dvh;
+        height: auto;
+    }
+
     .slide {
         flex-direction: column;
     }
