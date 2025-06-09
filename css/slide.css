@@ -1,10 +1,10 @@
 #slideSection{
-    min-height: 150dvh;
+    min-height: 90dvh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 90%;
+    gap: 94%;
 }
 
 .sliderButtons{

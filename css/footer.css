@@ -9,11 +9,30 @@
 
 footer {
     width: 100%;
-    height: 10dvh;
+    height: 15dvh;
     background-color: var(--cor-terciaria) ;
     color: var(--cor-secundaria);
     font-family: poppins;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.footerTxt{
+    color: white;
+}
+.footerTxt:hover{
+    color: #bbbbbb;
+    transition: .2s;
+}
+
+.footerMenu{
+    display: flex;
+    flex-direction: column;
+    gap: .2em;
+}
+
+.footerItens{
+    display: flex;
+    gap: 0.4em;
 }
