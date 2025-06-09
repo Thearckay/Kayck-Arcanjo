@@ -30,11 +30,16 @@ let slideCurrent = 1
 //botões
 const leftButton = document.getElementById('leftButton')
 const rightButton = document.getElementById('rightButton')
+const backButton = document.getElementById('backButton')
+const prevButton = document.getElementById('prevButton')
 const slide1 = document.getElementById('slide1')
 const slide2 = document.getElementById('slide2')
 const slide3 = document.getElementById('slide3')
 const slidePic = document.getElementById('slidePic')
 
+
+backButton.addEventListener('click', backSlide)
+prevButton.addEventListener('click', nextSlide)
 leftButton.addEventListener('click', backSlide )
 rightButton.addEventListener('click', nextSlide )
 
