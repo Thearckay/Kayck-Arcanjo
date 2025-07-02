@@ -31,5 +31,9 @@
 }
 
 #hospitalityCertificate{
-    background-image: url(../img/certificates/discoverCertificate.png);
+    background-image: url(../img/certificates/hospitalityCertificate.png);
+}
+
+#excelCertiticate{
+    background-image: url(../img/certificates/excelCertificate.png);
 }
