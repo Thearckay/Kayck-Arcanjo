@@ -8,16 +8,10 @@
     height: 90%;
     padding: 1em;
     display: flex;
-<<<<<<< Updated upstream
-    justify-content: center;
-    gap: 1em;
-    background-color: blue;
-=======
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 1em;
 
->>>>>>> Stashed changes
 }
 
 .certificates{
