@@ -13,9 +13,6 @@ idadehtml.textContent = anoAtual-birthDate
 
 // AVISOS DO HEADER
 
-let headerProjectsButton = document.getElementById('headerProjectsButton'); // Botão projetos
-headerProjectsButton.addEventListener('click', emDesenvolvimento)
-
 let headerAboutMeButton = document.getElementById('headerAboutMeButton');
 headerAboutMeButton.addEventListener('click', emDesenvolvimento)
 
