@@ -120,15 +120,15 @@
 
 /* Progressos */
 
-.skills-numeral-porcentage-html{
+.skills-numeral-porcentage-java{
     font-size: 0.9em;
     width: 30px;
-    left: 78.5%;
+    left: 46.5%;
     position: relative;
 }
-.progress-html {
+.progress-java {
     height: 100%;
-    width: 80%;
+    width: 48%;
     background-image: var(--cor-degradê);
     border-radius: inherit;
 }
