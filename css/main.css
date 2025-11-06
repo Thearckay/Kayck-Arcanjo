@@ -215,4 +215,57 @@ header {
     .pic-me {
         right: 0;
     }
+
+    /* club */
+
+    .clubmedSection{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1em;
+    }
+
+    .clubLeft{
+        padding: 0;
+
+    }
+    .clubLeft h1 {
+        font-size: 1.4em;
+    }
+    .clubLeft .guestTittle {
+        font-size: 2em;
+    }
+
+    /* ce */
+
+    .ceSection {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ceSection .ceRigth .ceSubTittle {
+        font-size: 1.6em;
+    }
+
+    /* chez */
+
+    .chezSection {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    /* certificates */
+
+    #certificate {
+        height: 150dvh;
+        display: flex;
+        flex-direction: column;
+    }
+    .certificates{
+        height: 100%;
+        width: 100%;
+
+    }
 }
+
