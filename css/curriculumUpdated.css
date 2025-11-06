@@ -1,0 +1,124 @@
+.curriculumClubMedSection{
+    min-height: 90dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-image: url(../img/page01-bg.jpg); */
+    background-size: cover;
+}
+
+
+
+.clubmedCard {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.clubmedLogo {
+    height: 50px;
+}
+
+.clubmedCard .txtArea {
+    padding: 2em;
+    font-family: poppins;
+}
+
+.clubmedCard .txtArea .tittles{
+    font-size: 2em;
+    line-height: 15px;
+    margin: 0 0 1em 0; 
+
+}
+
+.clubmedTittle {
+    color: black;
+    text-decoration: none;
+}
+
+.txtDescription{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.clubmedCurriculumBg {
+    width: 90%;
+    margin-top: 15%;
+}
+
+
+/* Centro estético carla cruz */
+
+.ceSection{
+    min-height: 90dvh;
+    background-color: #3d3d3d;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    padding: 2em;
+    font-family: poppins;
+    color: white;
+}
+
+.ceRigth{
+    display: flex;
+    flex-direction: column;
+}
+
+.ceRigth .ceTittle{
+    font-size: 3em;
+}
+
+.ceRigth .ceSubTittle{
+    font-size: 1.9em;
+}
+
+.ceRigth p {
+    margin-top: 1em;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+.ceLeft {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ceLeft img {
+    width: 100%;
+}
+
+/* Chez Bisutti */
+
+.chezSection {
+    min-height: 90dvh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: poppins;
+    padding: 1em;
+}
+
+.chezLeft {
+    padding: 1em;
+}
+
+.chezLeft h1 {
+    font-size: 2em;
+}
+
+.chezLeft p {
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+.chezRigth {
+    display: flex;
+    justify-content: center;
+}
+.chezRigth img{
+    width: 50%;
+    border-radius: 30px
+}
