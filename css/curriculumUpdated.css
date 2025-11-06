@@ -102,3 +102,26 @@
     width: 50%;
     border-radius: 30px
 }
+
+/* belmonte */
+
+.projetoSection {
+    min-height: 90dvh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: poppins;
+
+}
+
+.projetoLeft{
+    padding: 1em;
+}
+
+.projetoLeft {
+
+}
+
+.projetoLeft img {
+    width: 100%;
+    border-radius: 20px;
+}

@@ -258,14 +258,17 @@ header {
     /* certificates */
 
     #certificate {
+        padding: 0;
         height: 150dvh;
         display: flex;
         flex-direction: column;
+        gap: 1em;
+        padding: 1em;
     }
     .certificates{
-        height: 100%;
-        width: 100%;
-
+        height: 300px; 
+        width: 400pxem;
+        margin: 0;
     }
 }
 
