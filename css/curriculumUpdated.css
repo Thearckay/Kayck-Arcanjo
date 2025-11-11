@@ -125,3 +125,15 @@
     width: 100%;
     border-radius: 20px;
 }
+
+.projetorigth{
+    padding: 1em;
+}
+
+.projetorigth h1 {
+    font-size: 2em;
+}
+
+.projetorigth p {
+    margin-top: 1em;
+}
