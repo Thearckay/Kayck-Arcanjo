@@ -270,5 +270,10 @@ header {
         width: 400pxem;
         margin: 0;
     }
+
+    .projetoSection{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
