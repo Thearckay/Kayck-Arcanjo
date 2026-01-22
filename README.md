@@ -51,4 +51,4 @@ Desenvolvido por **Kayck Arcanjo**.
 ---
 
 ### Acesse o site
-[Clique aqui para visualizar minha Landing Page online](https://thearckay.github.io/portfolio-landing-page/)
+[Clique aqui para visualizar minha Landing Page online](https://thearckay.github.io/Kayck-Arcanjo/)
